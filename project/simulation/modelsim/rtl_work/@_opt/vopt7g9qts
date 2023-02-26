@@ -1,0 +1,658 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Legion\Desktop\ov5640_hdmi_1280x720\project\simulation\modelsim
+T_opt
+VEICUPn7c:eZ@>[oZ^MK?m1
+04 11 4 work tb_uart_pro fast 0
+=1-f875a4af3dcd-63fb0b0e-353-499c
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.1c;51
+vclk_gen
+IYZWQPVmeJMkB4N@B>`R=Q3
+VAF1?UbT@[WJKaVKQe>OID0
+Z1 dC:\Users\Legion\Desktop\ov5640_hdmi_1280x720\project\simulation\modelsim
+w1677068276
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen/clk_gen.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen/clk_gen.v
+L0 39
+Z2 OL;L;10.1c;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 CT>XNa@C5JdnNz_;R_4D_1
+!s85 0
+!s108 1677396750.141000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen/clk_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen/clk_gen.v|
+!s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_gen -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vclk_gen_altpll
+I3_Z=3IZ0@ZYaQC>behj<R2
+VfB_eBS9U0nYDV4D;Dd^Xe3
+R1
+w1677068342
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_gen_altpll.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_gen_altpll.v
+L0 30
+R2
+r1
+31
+R3
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 mI12RRi9a[76=B5VE9LcX1
+!s85 0
+!s108 1677396750.331000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_gen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_gen_altpll.v|
+vclk_hdmi
+IdQ91zYoA>1IJhViF^o3BK1
+VoJ605DdeCe3m<dXIFZ>N?1
+R1
+w1676122179
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi/clk_hdmi.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi/clk_hdmi.v
+L0 39
+R2
+r1
+31
+R3
+!i10b 1
+!s100 34oKQQHQl8lO9V4zE9;o42
+!s85 0
+!s108 1677396750.241000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi/clk_hdmi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi/clk_hdmi.v|
+!s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/clk_hdmi -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vclk_hdmi_altpll
+IElAOhCGRLQglH?@V>U_h90
+VARLmhiDJDV<VUTGob3FVO0
+R1
+w1676122195
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_hdmi_altpll.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_hdmi_altpll.v
+L0 30
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 8?20d@8jT@WFZB6Dk><HX0
+!s85 0
+!s108 1677396750.421000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_hdmi_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/db/clk_hdmi_altpll.v|
+vdata_wr_ctrl
+IBbO?UgM>eESH>18<lBUIj1
+V60T5nLH>kaZjGW@kF]EE>0
+R1
+w1677380700
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/data_wr_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/data_wr_ctrl.v
+L0 1
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 oSdd7SHaHN9UJOdie;bg`3
+!s85 0
+!s108 1677396747.548000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/data_wr_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/data_wr_ctrl.v|
+vddio_out
+If10?MQ]TOY@3<b5MAcW?<2
+V^T<NmBDF8W3Ko5MYPl2<^0
+R1
+w1676122177
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out/ddio_out.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out/ddio_out.v
+L0 39
+R2
+r1
+31
+R3
+!i10b 1
+!s100 RM5aoFWF^ccCeZ_9z<<H<0
+!s85 0
+!s108 1677396750.061000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out/ddio_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out/ddio_out.v|
+!s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/ddio_out -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vencode
+IdCkm7@i9a@Dm8Qihm5:dm3
+VQk]:0S3d@c3Fd0eT0cjS71
+R1
+Z6 w1639993914
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/encode.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/encode.v
+L0 21
+R2
+r1
+31
+R3
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 Sz]N83lBFIjDKF<V_G<0i1
+!s85 0
+!s108 1677396749.891000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/encode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/encode.v|
+vfifo_ctrl
+IG`2PBn142jSSWRSjb5GK;0
+VB53VYYdgfW3ledYoC4;S50
+R1
+w1676984272
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/fifo_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/fifo_ctrl.v
+L0 4
+R2
+r1
+31
+R3
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 ]<G6=o4Y?1]JZ@eX=WBi11
+!s85 0
+!s108 1677396749.221000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/fifo_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/fifo_ctrl.v|
+vfifo_data
+Ie`HcC1:zzDed5PA173BU32
+V;K:88J;Ff_Jb[djZeRW442
+R1
+w1676122170
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data/fifo_data.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data/fifo_data.v
+L0 39
+R2
+r1
+31
+R3
+!i10b 1
+!s100 Dd;d]S0c4eP8n=lTjKCI:1
+!s85 0
+!s108 1677396749.971000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data/fifo_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data/fifo_data.v|
+!s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/ip_core/fifo_data -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vframe_gen
+INgPkzb7KbQ=H;WPfMWD?^2
+Vhn5l6UM_:dPkjnRH4Fa=F3
+R1
+w1677323765
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/frame_gen.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/frame_gen.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 zRCVW07Ij8n=A_JSMA8Yo0
+!s85 0
+!s108 1677396747.718000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/frame_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/frame_gen.v|
+vhdmi_ctrl
+IWPO7_hYh;<kNiL<^ZkGa_0
+VY=1`b]U1eaZIRW4i::l5X0
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/hdmi_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/hdmi_ctrl.v
+L0 21
+R2
+r1
+31
+R3
+R7
+!i10b 1
+!s100 kh@nf_7Mk29GI@HS7f`7G2
+!s85 0
+!s108 1677396749.801000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/hdmi_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/hdmi_ctrl.v|
+vi2c_ctrl
+IK<D@ib=[KG<f69O9H3cHC3
+VDN31boM=d00Qii@cX=_Qm1
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/i2c_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/i2c_ctrl.v
+L0 20
+R2
+r1
+31
+R3
+Z9 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 aAc>zl?OKViBUPgPlT3JS0
+!s85 0
+!s108 1677396749.621000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/i2c_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/i2c_ctrl.v|
+vkey_filter
+Ic9Goa23GV6HLJ@L784:Yj1
+VLNE2^>C[f_FR=`nYG0ajK0
+R1
+Z10 w1640252100
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/key_filter.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/key_filter.v
+L0 21
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 D_Y=CAD9>agMVo]kCH>Jb1
+!s85 0
+!s108 1677396747.628000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/key_filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/key_filter.v|
+vov5640_cfg
+I[eO9e;KWfS=0ba?P5jck91
+V:dEG;X<aJaZQPMdokF@nN2
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_cfg.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_cfg.v
+L0 20
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 Z`B93a9P=@NNOCn5N=?D90
+!s85 0
+!s108 1677396749.511000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_cfg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_cfg.v|
+vov5640_data
+In2g1TX0_kn]jg7T3eWFXX0
+V6JlMKSM^]I:Vi5cdnIRO`2
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_data.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_data.v
+L0 20
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 <P:>GGBEl`JdiiZV1o<a62
+!s85 0
+!s108 1677396749.411000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_data.v|
+vov5640_hdmi_1280x720
+ImNZbHNJPM]BmW:T:kU=M[3
+VKaLzaEEYc=dQW0zIfM?kb1
+R1
+w1677396662
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640_hdmi_1280x720.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640_hdmi_1280x720.v
+L0 2
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 4iB<dY8O37URWh[TG7>GF0
+!s85 0
+!s108 1677396748.482000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640_hdmi_1280x720.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640_hdmi_1280x720.v|
+vov5640_top
+IN<JzWHL31Anl>oj:;DOV@1
+VZcRMGFXO;Lo]cjC>c`=La0
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_top.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_top.v
+L0 20
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 DeoP=ALJc9[;RP<87eZJ`0
+!s85 0
+!s108 1677396749.311000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/ov5640/ov5640_top.v|
+vpar_to_ser
+IN`cbK@RXTPP=?TPgc9]lR0
+V:UddQ9gjcX69]PZeQDEVJ0
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/par_to_ser.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/par_to_ser.v
+L0 20
+R2
+r1
+31
+R3
+R7
+!i10b 1
+!s100 PjRc90PQT^QD0WOAOfT<i0
+!s85 0
+!s108 1677396749.711000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/par_to_ser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/hdmi/par_to_ser.v|
+vsd_ctrl
+IRBGA>F[3HP`hL=aB4E4be0
+VD:4O>7YM[`938dTMWF[383
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_ctrl.v
+L0 20
+R2
+r1
+31
+R3
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 hN[Qn0heF5HXP[55d@D@Z3
+!s85 0
+!s108 1677396748.061000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_ctrl.v|
+vsd_init
+IncQF@CfJkKF=U9mc=l2?I1
+Vg7L`T_3GQce1U8BXdH5^73
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_init.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_init.v
+L0 20
+R2
+r1
+31
+R3
+R11
+!i10b 1
+!s100 ]kO_X6I5;JeC[U_Ja];TB1
+!s85 0
+!s108 1677396747.968000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_init.v|
+vsd_read
+IHi`bF8QPU7IEA]SfZjCU33
+Vdg@aE`Zd3N?<0;@Vdo2M13
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_read.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_read.v
+L0 20
+R2
+r1
+31
+R3
+R11
+!i10b 1
+!s100 UUzfRSbV[jFX=BSeoE@2V0
+!s85 0
+!s108 1677396747.888000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_read.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_read.v|
+vsd_write
+ICI?b4?n6ad25l>2l2m^n73
+VzQ@0h93Wb9Vi^N=fdAU=<1
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_write.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_write.v
+L0 20
+R2
+r1
+31
+R3
+R11
+!i10b 1
+!s100 bdmDK2f>7[WDjA3Qg4MZX2
+!s85 0
+!s108 1677396747.808000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/SD/sd_write.v|
+vsdram_a_ref
+IU2fHLXLKI;Jl^3f[ZHl3>0
+VIn=JMQ[:6HEZPJ[SKbBc<1
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_a_ref.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_a_ref.v
+L0 20
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 2kUW5L>n9fz`86?ME^O;Y1
+!s85 0
+!s108 1677396749.131000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_a_ref.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_a_ref.v|
+vsdram_arbit
+IQ?E`hGLXNBFg^INe5N[GB0
+VSTaUW5=FVb<eNl;GCGmH33
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_arbit.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_arbit.v
+L0 20
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 IzU[:Rja>ZLIMgQ>IUiG02
+!s85 0
+!s108 1677396749.041000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_arbit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_arbit.v|
+vsdram_ctrl
+I]Pf6a<^W1CJ^`M;G=KMfc0
+VH]@RjThI0h:Y?bHSN;YEA0
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_ctrl.v
+L0 19
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 =dSIgFPo2bQ<zNeQcOMab3
+!s85 0
+!s108 1677396748.952000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_ctrl.v|
+vsdram_init
+I6:>VbHjf?;W0MjGJmcBiV1
+V7VcNZ0;D9@h7?h8go4WK92
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_init.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_init.v
+L0 20
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 GO>0GS6fb`5zhULLbVWh>1
+!s85 0
+!s108 1677396748.852000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_init.v|
+vsdram_read
+IPgI5oY<KeV:E1@_ZmV8`_2
+VW=AEXFPI`S=7e1TeNLKO23
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_read.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_read.v
+L0 20
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 b0^]?e>hUgD]C]Q52FSa61
+!s85 0
+!s108 1677396748.742000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_read.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_read.v|
+vsdram_top
+IRQXSEzHz48:h`bnHf8gOC2
+Vle;<LM]d04_EN`]4DS9QX1
+R1
+w1677069112
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_top.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_top.v
+L0 3
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 c_VhJJ_8aRQEQ31O_KghP0
+!s85 0
+!s108 1677396748.652000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_top.v|
+vsdram_write
+IRkXnGeILRgjH3G_I_oU`=2
+VkRQEDk>FZ45H5S2eCN>0z0
+R1
+R6
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_write.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_write.v
+L0 20
+R2
+r1
+31
+R3
+R8
+!i10b 1
+!s100 >zb;l^_CgP@JSPZIN9oR?1
+!s85 0
+!s108 1677396748.562000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/sdram/sdram_write.v|
+vtb_uart_pro
+I9ZjRi9@Qm>fj7VLgPj6Dl0
+V;8K1MXDEc=D20]Xj?;EK62
+R1
+w1677396439
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim/tb_uart_pro.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim/tb_uart_pro.v
+L0 3
+R2
+r1
+31
+R3
+!i10b 1
+!s100 15AS@C=ehcf@gTaP_N:a[2
+!s85 0
+!s108 1677396750.511000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim/tb_uart_pro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim/tb_uart_pro.v|
+!s92 -vlog01compat -work work +incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/project/../sim -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vuart_pro
+IiAIafcH[MRmn4>1Y[a14]0
+V1V4EW_0QFBm:?l119<:>o0
+R1
+w1675263660
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_pro.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_pro.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 E6g_Ak^42H:T>K1A[M5f<2
+!s85 0
+!s108 1677396748.301000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_pro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_pro.v|
+vuart_rx
+IcPBzlPC60lG:o@KPZ_LPf0
+Vf@cgFZ>k=_:5oJP`=CWg;3
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_rx.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_rx.v
+L0 20
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 AkiZB9Q7]Pm_OU]zDd:^I1
+!s85 0
+!s108 1677396748.221000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_rx.v|
+vuart_tx
+I=VK>8j2fP:GFb7lBI8oj@1
+VBdE]H@<0eY4fXR1kLQWJ^3
+R1
+R10
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_tx.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_tx.v
+L0 20
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 moDeV038R3GoizoPd5hk=1
+!s85 0
+!s108 1677396748.141000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/uart_tx.v|
+vvga_ctrl
+I:iWF`3@QJ_zn6f@Lae6W]0
+V9dH=ZMejaSa7GzW53;UcE3
+R1
+w1677079266
+8C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/vga_ctrl.v
+FC:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/vga_ctrl.v
+L0 3
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 ?YngR]NETnKcQga@a_mcH3
+!s85 0
+!s108 1677396748.391000
+!s107 C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl|C:/Users/Legion/Desktop/ov5640_hdmi_1280x720/rtl/vga_ctrl.v|

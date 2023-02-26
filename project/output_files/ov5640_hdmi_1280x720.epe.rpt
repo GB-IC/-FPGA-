@@ -1,0 +1,217 @@
+Early Power Estimator File Generator report for ov5640_hdmi_1280x720
+Sun Feb 26 19:59:33 2023
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Early Power Estimator File Generator Summary
+  3. Early Power Estimator File Generator Settings
+  4. Indeterminate Toggle Rates
+  5. Early Power Estimator File Generator Generated Files
+  6. Confidence Metric Details
+  7. Signal Activities
+  8. Early Power Estimator File Generator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Summary                                                   ;
++---------------------------------------------+--------------------------------------------------+
+; Early Power Estimator File Generator Status ; Successful - Sun Feb 26 19:59:33 2023            ;
+; Quartus Prime Version                       ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition  ;
+; Revision Name                               ; ov5640_hdmi_1280x720                             ;
+; Top-level Entity Name                       ; ov5640_hdmi_1280x720                             ;
+; Family                                      ; Cyclone IV E                                     ;
+; Device                                      ; EP4CE10F17C8                                     ;
+; Power Estimation Confidence                 ; Low: user provided insufficient toggle rate data ;
++---------------------------------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Settings                                                                            ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Option                                                           ; Setting                               ; Default Value ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Use smart compilation                                            ; Off                                   ; Off           ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                                    ; On            ;
+; Enable compact report table                                      ; Off                                   ; Off           ;
+; Preset Cooling Solution                                          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
+; Board thermal model                                              ; None (CONSERVATIVE)                   ;               ;
+; Default Power Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%                                 ; 12.5%         ;
+; Use vectorless estimation                                        ; On                                    ; On            ;
+; Use Input Files                                                  ; Off                                   ; Off           ;
+; Filter Glitches in VCD File Reader                               ; On                                    ; On            ;
+; Power Analyzer Report Signal Activity                            ; Off                                   ; Off           ;
+; Power Analyzer Report Power Dissipation                          ; Off                                   ; Off           ;
+; Device Power Characteristics                                     ; TYPICAL                               ; TYPICAL       ;
+; Automatically Compute Junction Temperature                       ; On                                    ; On            ;
+; Specified Junction Temperature                                   ; 25                                    ; 25            ;
+; Ambient Temperature                                              ; 25                                    ; 25            ;
+; Use Custom Cooling Solution                                      ; Off                                   ; Off           ;
+; Board Temperature                                                ; 25                                    ; 25            ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Indeterminate Toggle Rates                                                                                                   ;
++------------------------------------------------------------------------------------------------+-----------------------------+
+; Node                                                                                           ; Reason                      ;
++------------------------------------------------------------------------------------------------+-----------------------------+
+; clk_gen:clk_gen_inst|altpll:altpll_component|clk_gen_altpll:auto_generated|wire_pll1_clk[0]    ; No valid clock domain found ;
+; clk_gen:clk_gen_inst|altpll:altpll_component|clk_gen_altpll:auto_generated|wire_pll1_clk[1]    ; No valid clock domain found ;
+; clk_gen:clk_gen_inst|altpll:altpll_component|clk_gen_altpll:auto_generated|wire_pll1_clk[2]    ; No valid clock domain found ;
+; clk_gen:clk_gen_inst|altpll:altpll_component|clk_gen_altpll:auto_generated|wire_pll1_clk[3]    ; No valid clock domain found ;
+; clk_gen:clk_gen_inst|altpll:altpll_component|clk_gen_altpll:auto_generated|wire_pll1_clk[4]    ; No valid clock domain found ;
+; clk_hdmi:clk_hdmi_inst|altpll:altpll_component|clk_hdmi_altpll:auto_generated|wire_pll1_clk[0] ; No valid clock domain found ;
+; clk_hdmi:clk_hdmi_inst|altpll:altpll_component|clk_hdmi_altpll:auto_generated|wire_pll1_clk[1] ; No valid clock domain found ;
+; sccb_sda                                                                                       ; No valid clock domain found ;
+; sdram_dq[0]                                                                                    ; No valid clock domain found ;
+; sdram_dq[1]                                                                                    ; No valid clock domain found ;
+; sdram_dq[2]                                                                                    ; No valid clock domain found ;
+; sdram_dq[3]                                                                                    ; No valid clock domain found ;
+; sdram_dq[4]                                                                                    ; No valid clock domain found ;
+; sdram_dq[5]                                                                                    ; No valid clock domain found ;
+; sdram_dq[6]                                                                                    ; No valid clock domain found ;
+; sdram_dq[7]                                                                                    ; No valid clock domain found ;
+; sdram_dq[8]                                                                                    ; No valid clock domain found ;
+; sdram_dq[9]                                                                                    ; No valid clock domain found ;
+; sdram_dq[10]                                                                                   ; No valid clock domain found ;
+; sdram_dq[11]                                                                                   ; No valid clock domain found ;
+; sdram_dq[12]                                                                                   ; No valid clock domain found ;
+; sdram_dq[13]                                                                                   ; No valid clock domain found ;
+; sdram_dq[14]                                                                                   ; No valid clock domain found ;
+; sdram_dq[15]                                                                                   ; No valid clock domain found ;
+; sys_rst_n                                                                                      ; No valid clock domain found ;
+; sys_clk                                                                                        ; No valid clock domain found ;
+; sd_miso                                                                                        ; No valid clock domain found ;
+; ov5640_pclk                                                                                    ; No valid clock domain found ;
+; ov5640_vsync                                                                                   ; No valid clock domain found ;
+; ov5640_data[0]                                                                                 ; No valid clock domain found ;
+; ov5640_href                                                                                    ; No valid clock domain found ;
+; ov5640_data[1]                                                                                 ; No valid clock domain found ;
+; ov5640_data[2]                                                                                 ; No valid clock domain found ;
+; ov5640_data[3]                                                                                 ; No valid clock domain found ;
+; ov5640_data[4]                                                                                 ; No valid clock domain found ;
+; ov5640_data[5]                                                                                 ; No valid clock domain found ;
+; ov5640_data[6]                                                                                 ; No valid clock domain found ;
+; ov5640_data[7]                                                                                 ; No valid clock domain found ;
+; key_in                                                                                         ; No valid clock domain found ;
+; rx                                                                                             ; No valid clock domain found ;
++------------------------------------------------------------------------------------------------+-----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Generated Files                                                ;
++----------------------------------------------------------------+------------------------------------+
+; Description                                                    ; Filename                           ;
++----------------------------------------------------------------+------------------------------------+
+; Design summary for PowerPlay Early Power Estimator spreadsheet ; ov5640_hdmi_1280x720_early_pwr.csv ;
++----------------------------------------------------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                          ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Data Source                                                                            ; Total        ; Pin        ; Registered    ; Combinational ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Simulation (from file)                                                                 ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Node, entity or clock assignment                                                       ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Vectorless estimation                                                                  ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 4238 (99.1%) ; 57 (64.0%) ; 1155 (100.0%) ; 3026 (99.8%)  ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 108 (2.5%)   ; 9 (10.1%)  ; 23 (2.0%)     ; 76 (2.5%)     ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 4238 (99.1%) ; 57 (64.0%) ; 1155 (100.0%) ; 3026 (99.8%)  ;
+;                                                                                        ;              ;            ;               ;               ;
+; Default assignment                                                                     ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 39 (0.9%)    ; 32 (36.0%) ; 0 (0.0%)      ; 7 (0.2%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Assumed 0                                                                              ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 39 (0.9%)    ; 32 (36.0%) ; 0 (0.0%)      ; 7 (0.2%)      ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Activities                                                                                                                           ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+; Signal ; Type ; Toggle Rate (millions of transitions / sec) ; Toggle Rate Data Source ; Static Probability ; Static Probability Data Source ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+(1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++-----------------------------------------------+
+; Early Power Estimator File Generator Messages ;
++-----------------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Early Power Estimator File Generator
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+    Info: Processing started: Sun Feb 26 19:59:32 2023
+Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off ov5640_hdmi_1280x720 -c ov5640_hdmi_1280x720 --estimate_power=off --output_epe=ov5640_hdmi_1280x720_early_pwr.csv
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Warning (335093): The Timing Analyzer is analyzing 2 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity dcfifo_3fk1
+        Info (332166): set_false_path -from *rdptr_g* -to *ws_dgrp|dffpipe_re9:dffpipe15|dffe16a* 
+        Info (332166): set_false_path -from *delayed_wrptr_g* -to *rs_dgwp|dffpipe_qe9:dffpipe13|dffe14a* 
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'ov5640_hdmi_1280x720.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (332060): Node: sys_clk was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_inst3|ddio_out:ddio_out_inst0|altddio_out:ALTDDIO_OUT_component|ddio_out_p9j:auto_generated|ddio_outa[0]~DFFLO is being clocked by sys_clk
+Warning (332060): Node: ov5640_pclk was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register sdram_top:sdram_top_inst|fifo_ctrl:fifo_ctrl_inst|fifo_data:wr_fifo_data|dcfifo:dcfifo_component|dcfifo_3fk1:auto_generated|delayed_wrptr_g[3] is being clocked by ov5640_pclk
+Warning (332060): Node: ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_done is being clocked by ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk
+Warning (332060): Node: ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_i2c_clk[0] was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Latch ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|ack is being clocked by ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_i2c_clk[0]
+Warning (332068): No clocks defined in design.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: clk_gen_inst|altpll_component|auto_generated|pll1|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_gen_inst|altpll_component|auto_generated|pll1|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_gen_inst|altpll_component|auto_generated|pll1|clk[2] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_gen_inst|altpll_component|auto_generated|pll1|clk[3] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_gen_inst|altpll_component|auto_generated|pll1|clk[4] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_hdmi_inst|altpll_component|auto_generated|pll1|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+    Warning (332056): Node: clk_hdmi_inst|altpll_component|auto_generated|pll1|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
+Info (223000): Starting Vectorless Power Activity Estimation
+Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
+Info (214002): Created Early Power Estimation file "ov5640_hdmi_1280x720_early_pwr.csv"
+Info (215029): No power estimate will be produced.
+Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
+Info: Quartus Prime Early Power Estimator File Generator was successful. 0 errors, 17 warnings
+    Info: Peak virtual memory: 4761 megabytes
+    Info: Processing ended: Sun Feb 26 19:59:33 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+

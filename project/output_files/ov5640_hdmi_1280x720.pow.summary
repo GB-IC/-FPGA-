@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Sun Feb 26 19:59:30 2023
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : ov5640_hdmi_1280x720
+Top-level Entity Name : ov5640_hdmi_1280x720
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Power Models : Final
+Total Thermal Power Dissipation : 89.72 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 53.87 mW
+I/O Thermal Power Dissipation : 35.84 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
